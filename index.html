@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toyshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>toyshop</h1>
+        <button id="menu-toggle" class="menu-toggle">&#9776;</button> 
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a href="#casa">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#sobre nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div id="cart" class="cart">
+            <button> <img src="/storage/emulated/0/Download/1486506235-groceries-online-shopping-cart-e-commerce-shopping-cart_81445.png"  width="30">carrito (<span id="cart-count">0</span>)</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section-b">
+            <h2>Bienvenidos a nuestra tienda</h2>
+            <img src="/storage/emulated/0/Download/MHT5.gif" class="img" width=350px border="10px">
+            <p>Descubre una amplia selección de juguetes de alta calidad.</p>
+        </section>
+
+        <section id="products" class="section">
+            <h2>Nuestros Productos</h2>
+            <div class="product-container">
+                <div class="product" data-name="cajas de lego" data-price="50">
+                    <h2>caja de legos</h2>
+                    <p>Detalles</p>
+                    <p>Juego de bloques de construcción, con almacenamiento, incluye tren, automóvil y una figura de tigre, para personas de 4 a 99 años</p>
+                    <p>Precio: $50</p>
+                    <img src="/storage/emulated/0/Download/7aCd.gif" alt="caja de legos">
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+
+                <div class="product" data-name="muñeca barbie" data-price="25">
+                    <h2>muñeca barbie</h2>
+                    <p>Detalle</p>
+                    <p>¡Barbie está lista para la aventura! Con su increíble vestuario y accesorios, Barbie puede ser astronauta, veterinaria, estrella de rock... ¡lo que tú quieras!  Despierta la imaginación de tu pequeñ@ con Barbie. ¡Miles de historias esperan ser creadas!</p>
+                    <p>Precio: $25</p>
+                    <img src="/storage/emulated/0/Download/6ec23954de410089feefed9941151746.gif" alt="muñeca barbie">
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+
+                <div class="product" data-name="dinodaurio de juguete" data-price="70">
+                    <h2>dinosaurio de juguete</h2>
+                    <p>Detalle</p>
+                    <p>Prepárate para una aventura prehistórica con nuestro increíble dinosaurio de juguete!  Con detalles realistas y articulaciones móviles, este dinosaurio cobrará vida en las manos de tu pequeñ@.</p>
+                    <p>Precio: $70</p>
+                    <img src="/storage/emulated/0/Download/giphy.gif" alt="dinosaurio de juguete">
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+              
+              <div class="product" data-name="pistola nerf" data-price="30">
+    <h2>pistola nerf</h2>
+    <p>Detalles</p>
+    <p>¡La pistola Nerf te ofrece la máxima acción y diversión!  Su diseño ergonómico y su precisión te permitirán apuntar con precisión y derrotar a tus oponentes.</p>
+    <p>Precio: $30</p>
+    <img src="/storage/emulated/0/Download/webp-net-gifmaker1-3630165897036a5d9716329285101266-640-0.gif"  width="190"alt="pistola nerf">
+    <button class="add-to-cart">Añadir al carrito</button>
+</div>
+            </div>
+        <section id="about" class="section">
+            <h2>Sobre Nosotros</h2>
+            <img src="/storage/emulated/0/Download/1a7a5012f239466132dec5133a846287.gif" width="300px" class="imgnosotros">
+            <p>Somos una tienda dedicada a ofrecerle juguetes para tus niños de alta calidad.</p>
+            
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contacto</h2>
+            <div class="formulario" data-name="llena el siguiente formulario para avanzar" data-price="70">
+                <h3>Llene el siguiente formulario si tienes algun disgusto con el producto seleccionado</h3>
+                <form
+  action="https://formspree.io/f/xjkvvqjg"
+  method="POST"
+>
+  <label>
+    tu email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    tu mensaje:
+    <textarea name="mensaje"></textarea>
+  </label>
+  <button type="submit">enviar</button>
+</form>
+            </div>
+        </section>
+    </main>
+    <p> 2024 derechos de autor de hasbro</p>
+    <script src="script.js"></script>
+</body>
+</html>
+
